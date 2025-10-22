@@ -1,0 +1,28 @@
+# After installing Git, run these commands in PowerShell:
+
+# 1. Configure Git (replace with your info)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# 2. Initialize Git repository
+git init
+
+# 3. Add all files
+git add .
+
+# 4. Create first commit
+git commit -m "Initial commit: Snake game with hand tracking"
+
+# 5. Create main branch
+git branch -M main
+
+# 6. Add your GitHub repository (replace YOUR_USERNAME and YOUR_REPO)
+git remote add origin https://github.com/YOUR_USERNAME/snake-game-hand-tracking.git
+
+# 7. Push to GitHub
+git push -u origin main
+
+# Future updates:
+# git add .
+# git commit -m "Your commit message"
+# git push
